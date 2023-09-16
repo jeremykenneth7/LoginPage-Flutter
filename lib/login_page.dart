@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Icon(
-                Icons.login,
+                Icons.login_outlined,
                 size: 100,
               ),
               //Judul Login
@@ -131,7 +131,7 @@ class _LoginPageState extends State<LoginPage> {
                         },
                         activeColor: Colors.black,
                       ),
-                      Text(
+                      const Text(
                         'Remember me',
                         style: TextStyle(
                           color: Colors.black,
@@ -148,7 +148,7 @@ class _LoginPageState extends State<LoginPage> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text(
+                  const Text(
                     'New User?',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
